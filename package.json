@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.12.1",
     "date-fns": "^4.1.0",
     "klinecharts": "^10.0.0-alpha5",
     "lodash": "^4.17.21",
